@@ -50,7 +50,7 @@ Se debe construir un programa en JavaScript que permita a los usuarios crear enc
 ------------
 
 
-- Crear función de tipo flecha llamada `crearPregunta` que toma dos parámetros que son los siguientes: `textoPregunta` y `opciones`. Esta función devuelve un objeto con tres propiedades: `textoPregunta, opciones y resultados`. La tercera propiedad que es resultados en donde su valor es un objeto vacío `{ }` el cual se utilizara para almacenar las respuestas de los usuarios según la pregunta realizada.
+- Crear función de tipo flecha llamada `crearPregunta` que toma dos parámetros que son los siguientes: `textoPregunta` y `opciones`. Esta función devuelve un objeto con tres propiedades: `textoPregunta, opciones y resultados`. La tercera propiedad que es `resultados` en donde su valor es un objeto vacío `{ }` el cual se utilizara para almacenar las respuestas de los usuarios según la pregunta realizada.
 
 ```javascript
 // Función flecha para poder crear una pregunta.
@@ -74,7 +74,7 @@ const crearPregunta = (textoPregunta, opciones)=> {
   }
 ```
 
-- Crear tercera función llamada `agregarVoto` se utilizará para agregar un voto a una opción de una pregunta realizada en la encuesta. Esta función toma dos parámetros `pregunta` y `opcionSelecionada`. Utilizaremos una condicional `if/else` anidados el cual en su primera condición verifica si el voto agregado se encuentra dentro de las opciones disponibles utilizando el método `includes`. Después tendremos una segunda condición el cual nos indica que si el voto es válido verifica si ya existen votos para esa opción y si ya hay votos existen se incrementa el contador de votos si no de lo contrario inicializa el contador de votos a 1. Luego se llama a la función `mostrarResultados` para mostrar los resultados actualizados y por último si la opción no es válida arroja un mensaje de error por consola.
+- Crear tercera función llamada `agregarVoto` se utilizará para agregar un voto a una opción de una pregunta realizada en la encuesta. Esta función toma dos parámetros `pregunta` y `opcionSelecionada`. Utilizaremos una condicional `if/else` anidados el cual en su primera condición verifica si el voto agregado se encuentra dentro de las opciones disponibles utilizando el método `includes`. Después tendremos una segunda condición el cual nos indica que si el voto es válido, verifica si ya existen votos para esa opción y si ya hay votos existentes se incrementa el contador de votos si no de lo contrario inicializa el contador de votos a 1. Luego se llama a la función `mostrarResultados` para mostrar los resultados actualizados y por último si la opción no es válida arroja un mensaje de error por consola.
 
 ```javascript
 function agregarVoto(pregunta, opcionSeleccionada) {
@@ -101,7 +101,7 @@ function mostrarResultados(pregunta) {
   }
 ```
 
-- Crear quinta función llamada `votar` que toma como parámetro solo `preguntas`. Esta función se utiliza para que el usuario pueda seleccionar una opción para una pregunta de la encuesta mediante un `prompt` que contiene el texto de la pregunta y las opciones disponibles, luego se registra el voto del usuario invocando la función `agregarVoto`.
+- Crear quinta función llamada `votar` que toma como parámetro solo `preguntas`. Esta función se utiliza para que el usuario pueda seleccionar una opción para una pregunta de la encuesta mediante un `prompt` que contiene el texto de la pregunta y las opciones disponibles, luego se registra el voto del usuario invocando la función `agregarVoto`. En este bloque de codigo se utiliza el metodo `join` que lo hace basicamente es unir todos los elementos de un array en una sola cadena separandolos con un delimitador especifico que seria de esta forma `(", ")`.
 
 ```javascript
  function votar(pregunta) {
@@ -110,7 +110,7 @@ function mostrarResultados(pregunta) {
   }
    
 ```
-- Y por último se crea la sexta función `ejecutarPrograma` como su nombre lo señala coordina toda la estructura de la encuesta desde la creación de las preguntas hasta el proceso de votación. Primero se le solicita al usuario el número de preguntas que desea realizar por medio de un `prompt`, luego nuevamente se solicita al usuario que escriba el texto (preguntas) y las opciones. En esta parte del bloque de código utilizamos un método denominado `split` que se utiliza para dividir una cadena de texto en un array de subcadenas, usando comas (,) como delimitador. Además, también tenemos el método `push` que nos ayudara agregar el objeto pregunta al array de `preguntas`. En ultima instancia se crea un objeto de encuesta con el array de preguntas para luego permitir al usuario que vote en cada pregunta realizada en la encuesta iterado por un bucle `for` y un bucle `while` que se ejecutara hasta que el usuario decida dejar de votar. 
+- Y por último se crea la sexta función `ejecutarPrograma` como su nombre lo señala coordina toda la estructura de la encuesta desde la creación de las preguntas hasta el proceso de votación. Primero se le solicita al usuario el número de preguntas que desea realizar por medio de un `prompt`, luego nuevamente se solicita al usuario que escriba el texto (preguntas) y las opciones. En esta parte del bloque de código utilizamos un método denominado `split` que se utiliza para dividir una cadena de texto en un array de subcadenas, usando comas (,) como delimitador. Además, también tenemos el método `push` que permite agregar el objeto pregunta al array de `preguntas`. Y para finalizar se crea un objeto de encuesta con el array de preguntas para luego permitir al usuario que vote en cada pregunta realizada en la encuesta iterado por un bucle `for` y un bucle `while` que se ejecutara hasta que el usuario decida dejar de votar. 
 
 ```javascript
   // Función para poder ejecutar la encuesta 

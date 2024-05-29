@@ -226,25 +226,25 @@ A continuación, veremos cómo se ve ejecutado el programa a medida que ingresam
 1. Ingresar el número de preguntas a realizar.
 </p>
 
-[![inicio-preguntas.png](https://i.postimg.cc/mD4H2Cjm/inicio-preguntas.png)](https://postimg.cc/GBM2XBZD)
+[![inicio-preguntas.png](https://i.postimg.cc/pV3Bj2Yp/inicio-preguntas.png)](https://postimg.cc/pyY8bMSH)
 
 <p>
 2. Ingresar el texto de la pregunta.
 </p>
 
-[![pregunta-encuesta.png](https://i.postimg.cc/4yJ2tKf5/pregunta-encuesta.png)](https://postimg.cc/LYbVF8ZY)
+[![pregunta-encuesta.png](https://i.postimg.cc/Qd3k60zD/pregunta-encuesta.png)](https://postimg.cc/bsmtrH8V)
 
 <p>
 3. Ingresar las opciones separadas por comas (,).
 </p>
 
-[![opciones.png](https://i.postimg.cc/TwTJNZz2/opciones.png)](https://postimg.cc/KKsTRscC)
+[![opciones.png](https://i.postimg.cc/9fXP2zVN/opciones.png)](https://postimg.cc/K1V3rG1n)
 
 <p>
 4. Votar por las opciones ingresadas.
 </p>
 
-[![respuesta.png](https://i.postimg.cc/QtMWThL7/respuesta.png)](https://postimg.cc/67D3ssp6)
+[![respuesta.png](https://i.postimg.cc/pd0fLxLV/respuesta.png)](https://postimg.cc/xkzJ6wmB)
 
 <p>
     
@@ -252,7 +252,7 @@ A continuación, veremos cómo se ve ejecutado el programa a medida que ingresam
    
 </p>
 
-[![preguntas-y-respuestas.png](https://i.postimg.cc/wTN0W8MJ/preguntas-y-respuestas.png)](https://postimg.cc/3dKXRqgJ)
+[![preguntas-y-respuestas.png](https://i.postimg.cc/rm355J4v/preguntas-y-respuestas.png)](https://postimg.cc/gXywW3ND)
 
 
 

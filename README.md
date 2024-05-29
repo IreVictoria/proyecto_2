@@ -1,6 +1,12 @@
 [![banner.png](https://i.postimg.cc/GhVTTFtc/banner.png)](https://postimg.cc/cr7LV8fj)
 # Proyecto n°2: Sistema de votación en JavaScript.
 
+<p>
+    
+En este proyecto se dará a conocer la construcción de un programa basado en un `sistema de votación` utilizando el lenguaje de programación en JavaScript implementado en `programación funcional` realizado en el editor de código `Visual Studio Code`. A continuación, se mostrarán los requisitos del proyecto y el paso a paso de cómo se realizó el `sistema de votación en JavaScript`.
+
+</p>
+
 ------------
 <p>
     

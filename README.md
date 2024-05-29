@@ -101,7 +101,7 @@ function mostrarResultados(pregunta) {
   }
 ```
 
-- Crear quinta función llamada `votar` que toma como parámetro solo `preguntas`. Esta función se utiliza para que el usuario pueda seleccionar una opción para una pregunta de la encuesta mediante un `prompt` que contiene el texto de la pregunta y las opciones disponibles, luego se registra el voto del usuario invocando la función `agregarVoto`. En este bloque de codigo se utiliza el metodo `join` que lo hace basicamente es unir todos los elementos de un array en una sola cadena separandolos con un delimitador especifico que seria de esta forma `(", ")`.
+- Crear quinta función llamada `votar` que toma como parámetro solo `preguntas`. Esta función se utiliza para que el usuario pueda seleccionar una opción para una pregunta de la encuesta mediante un `prompt` que contiene el texto de la pregunta y las opciones disponibles, luego se registra el voto del usuario invocando la función `agregarVoto`. En este bloque de codigo se utiliza el metodo `join` basicamente lo que hace es unir todos los elementos de un array en una sola cadena separandolos con un delimitador especifico que seria de esta forma `(", ")`.
 
 ```javascript
  function votar(pregunta) {
